@@ -1,4 +1,3 @@
-
 from flask import Flask, request
 from flask_restful import Resource, Api
 
@@ -27,4 +26,5 @@ class TodoSimple(Resource):
 api.add_resource(TodoSimple, '/<string:todo_id>')
 
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run(debug=False, host='0.0.0.0')
+    
