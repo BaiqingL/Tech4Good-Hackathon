@@ -1,0 +1,1 @@
+/// console.log(<img id = 'info2' src="1.png"/>)

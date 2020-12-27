@@ -1,0 +1,35 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<scripttype="text/javascript"src="jquery.js"></script>
+<script>
+function func(){
+/// console.log(a = Math.floor((Math.random()*4)+1)+'.png';)
+var obj=document.getElementById("info");
+///console.log(obj.src=a)
+a = obj.innerText
+num = a.replace(/[^\d]/g, ''); 
+
+if (num-1>=0){
+obj.innerHTML = '距离您还有'+String(num-1)+'米'
+var mp3 = new Audio(String(num-1)+'.mp3');  // 创建音频对象
+mp3.play(); // 播放
+}
+else{
+obj.innerHTML = '公交车已经到站！'
+var mp3 = new Audio('0.mp3');
+mp3.play();
+}
+}
+</script>
+<title>公交车报站系统</title>
+<style type='text/css'>
+    body{background-color:aliceblue;}
+    </style>
+</head>
+<body>
+<h1 style = "margin-top: 10%; margin-left: 30%;">单击下面的按钮，获取公交状态</h1>
+<button onclick="func()" id="info" type="button" class="btn btn-primary btn-lg btn-block" style = "margin-top: 13%; padding-bottom: 70%; font-size: 50px;">距离您还有10米</button>
+</body>
+</html>
