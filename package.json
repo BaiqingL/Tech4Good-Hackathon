@@ -1,0 +1,16 @@
+{
+  "name": "AwesomeProject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start"
+  },
+  "dependencies": {
+    "expo": "^39.0.5",
+    "react-native": "^0.16.0",
+    "react-native-ble-manager": "^7.4.1"
+  },
+  "devDependencies": {
+    "react-native-cli": "^2.0.1"
+  }
+}
