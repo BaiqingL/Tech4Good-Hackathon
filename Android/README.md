@@ -5,3 +5,4 @@ A visually-impaired person could download the android apk through this link:
 https://drive.google.com/file/d/1Vr_vIkb2fD7d8lvQqMFJw4snobKXhDLD/view?usp=sharing
 It is an accessible android device.
 Future improvement may break free from the dependency on html language, and use native Android functions instead to detect nearby bluetooth device.
+The code in the /bus file represents the code used to develop this android app.
