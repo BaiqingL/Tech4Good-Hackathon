@@ -162,6 +162,7 @@ struct ContentView: View {
             .modifier(BigText())
             .onAppear(perform: prepareHaptics)
             .background(detector.lastDistance.color)
+            .animation((Animation.linear).delay(0.1))
             .onTapGesture {
                 busStatus(text: detector.lastDistance.spoken)
                 complexSuccess(intensity: detector.lastDistance.intensity)
