@@ -1,6 +1,6 @@
 # Tech4Good公益黑客马拉松，11+10组
 
-## Client
+## ios-client/
 - iOS 盲人/视力障碍人员等待公交车客户端
 #### 使用技能：
 1. XCode
@@ -11,7 +11,7 @@
 6. Custom haptic engine responses
 7. REST API client requests
 
-## server
+## backend-server/
 - 客户端后段查询车辆信息数据库
 #### 使用技能：
 1. Python
@@ -19,7 +19,7 @@
 3. Cloud instance deployment
 4. Linux security policies
 
-## html
+## webapp/
 - 网页版客户端，基本逻辑搭建
 #### 使用技能：
 1. Text-to-speech
@@ -27,7 +27,7 @@
 3. Nginx
 4. HTTPS Secure practices
 
-## android
+## android-client/
 - 安卓客户端
 #### 使用技能：
 1. WebView
