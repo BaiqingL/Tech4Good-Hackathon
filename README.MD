@@ -1,5 +1,7 @@
 # Tech4Good公益黑客马拉松，11+10组
 
+获得总比赛第一名，VMware奖项与DFRobot奖项
+
 ## ios-client/
 - iOS 盲人/视力障碍人员等待公交车客户端
 #### 使用技能：
